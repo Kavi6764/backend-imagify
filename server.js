@@ -14,6 +14,7 @@ app.use(cors())
 await connnectDB()
 
 
+
 app.use('/api/user', router)
 
 app.use('/api/image',imageRouter)
